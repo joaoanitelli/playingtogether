@@ -1,0 +1,1149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background:linear-gradient(120deg,#72CBE1,#349CB5);
+    border: none;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 6rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+}
+
+.logo-menu {
+    height: 64px;
+    width: 64px;
+    margin-right: 8px;
+}
+
+.logotexto-menu {
+    height: 62px;
+    width:172px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    margin-left: -5%;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-size: 1.15rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 0px 16px;
+    transition: 0.65s;
+}
+
+.mobile-menu-icon,.mobile-menu {
+    display: none;
+}
+
+/* Botoes menu */
+
+.nav-item a:hover {
+    color: rgb(229, 234, 132);
+}
+
+/* assinatura */
+
+.primeirotexto {
+    margin-top: 24px;
+}
+
+.primeirotexto p {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.primeirasection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button-laranja{
+    text-decoration: none;
+    background-color: #185C6C;
+    padding: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    border-radius: 10px;
+    margin-top: 32px;
+}
+
+.sectioncards {
+    margin-top: 40px;
+    background-color: rgb(56, 182, 255);
+    padding-top: 4px;
+    padding-bottom: 40px;
+}
+
+.fileira1 {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#fileira2 {
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+}
+
+div .card {
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:16px
+}
+
+.card {
+    padding: 10px 35px;
+    min-width: 375px;
+    max-width: 375px;
+    min-height: 400px;
+    max-height: 400px;
+}
+
+.icon-card {
+    font-size: 125px;
+}
+
+.texto-card {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px 16px;
+}
+
+.emaisainda {
+    text-align: center;
+    font-size: 64px;
+    font-weight: 600;
+    color: white;
+    margin-top: 40px;
+}
+
+.cards-assinatura {
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+
+.cardteaching {
+    max-width: 374px;
+    min-width: 374px;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    box-shadow: 10px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.imagemcard {
+    border-radius: 24px 24px 0px 0px;
+}
+
+.textoscardassinatura {
+    display: flex;
+    flex-direction: column;
+}
+
+.textoscardassinatura h1{
+    margin-top:8px;
+    font-size: 28px;
+}
+
+.precoassinatura {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: -8px;
+}
+
+.precoassinatura p {
+    padding-top: 8px;
+    font-size: 20px;
+    padding-bottom: 0;
+    margin-top:8px;
+    font-weight: 500;
+    color: #505050;
+}
+
+.cardteaching a {
+    background-color: #5DD062;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 8px 32px;
+    font-size: 20px;
+    border-radius: 72px;
+    text-align: center;
+    margin: 32px 16px;
+}
+
+/* Responsividade Desktop */
+@media screen and (max-width:1400px) {
+    .card {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        min-width: 350px;
+        max-width: 350px;
+    }
+
+    #fileira2 {
+        margin-top: 24px;
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .emaisainda {
+        margin-top: 8px;
+        font-size: 36px;
+    }
+
+    .card {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        min-width: 300px;
+        max-width: 300px;
+        min-height: 350px;
+        max-height: 350px;
+        padding: 25px 25px;
+    }
+
+    .texto-card {
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    #fileira2 {
+        margin-top: 16px;
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .emaisainda {
+        font-size: 36px;
+    }
+    
+    .card {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        min-width: 225px;
+        max-width: 225px;
+        min-height: 250px;
+        max-height: 250px;
+        padding: 24px;
+    }
+
+    .icon-card {
+        font-size: 80px;
+    }
+
+    .texto-card {
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .nav-item a {
+        padding: 0px 8px;
+    }
+
+    #fileira2 {
+        margin-top: 8px;
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .emaisainda {
+        margin-top: -8px;
+        font-size: 36px;
+    }
+    .fileira1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 5px;
+        min-width: 300px;
+        max-width: 300px;
+        min-height: 275px;
+        max-height: 275px;
+        margin-bottom: 24px;
+    }
+    
+    .icon-card {
+        font-size: 80px;
+    }
+
+    .texto-card {
+        font-weight: 500;
+        font-size: 16px;
+    }
+}
+
+/* Section 3 */
+.buttonlaranja{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Celular */
+@media screen and (max-width:850px){
+    .primeirasection a {
+        font-size: 16px;
+        margin-top: 16px;
+    }
+
+    .nav-bar {
+        padding: 1.5rem;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .nav-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 24px;
+        margin: 0px 32px;
+    }
+
+    .nav-list {
+        gap:24px;
+    }
+
+    .i-menu {
+        font-size: 40px;
+    }
+
+    /* UL MOBILE MENU */
+
+    .mobile-menu ul {
+        margin-top: -8px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .open {
+        display: block;
+    }
+
+    .assinatura {
+        margin-bottom: 16px;
+    }
+}
+
+/* Section 1 */
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 48px 40px 0px 40px;
+
+}
+
+.texto-1 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.texto-1 h1 {
+    font-size: 48px;
+}
+
+.logo-section-1 .corujinha {
+    display: none;
+    height: 100px;
+    width: 100px;
+}
+
+.logo-section-1 .textotogether {
+    display: none;
+}
+
+.texto-1 .imagemdotexto{
+    height: 99px;
+    width: 277px;
+}
+
+.video {
+    width: 45%;
+    border-radius: 50px 20px 50px 20px;
+    border: 1px solid black;
+}
+
+@media screen and (max-width:840px) {
+
+    .video {
+        width: 95%;
+    }
+    .texto-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagemdotexto {
+        display: none;
+    }
+
+    .logo-section-1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .logo-section-1 .corujinha {
+        display: block;
+        height: 100px;
+        width: 100px;
+    }
+
+    .logo-section-1 .textotogether {
+        display: block;
+        height: 99px;
+        width: 277px;
+    }
+
+    .texto-1 h1 {
+        margin-top: 24px;
+    }
+}
+
+.texto-2 h1 {
+    font-size: 48px;
+}
+
+.texto-3 {
+    display: inline-block;
+}
+
+.texto-3 p {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.texto-4 p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 32px;
+}
+
+.texto-5 {
+    margin-top: 16px
+}
+
+.texto-5 p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+footer {
+    background:linear-gradient(120deg,#72CBE1,#349CB5);
+    max-height: 100px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: white;
+    font-size: 12px;
+    margin: 0px 48px 0px 48px;
+    text-align: center;
+}
+
+@media screen and (max-width:715px) {
+
+    .texto-1 h1, .texto-2 h1 {
+        font-size: 40px;
+    }
+
+    .texto-3 p, .texto-4 p, .texto-5 p {
+        font-size: 16px;
+    }
+
+    .section-1 {
+        margin-top: 32px;
+    }
+}
+
+
+
+@media screen and (max-width:610px) {
+    .texto-1 h1{
+        margin: 8px;
+        font-size: 32px;
+    }
+
+    .texto-2 h1 {
+        margin: 0px 16px 8px 16px;
+        font-size: 32px;
+    }
+
+    .texto-3 p, .texto-4 p,.texto-5 p {
+        font-size: 14px;
+    }
+
+    
+}
+
+
+@media screen and (max-width:540px) {
+    .texto-2 h1 {
+        font-size: 24px;
+        margin-top: 0px;
+    }
+
+    .texto-3 p {
+        margin: 16px;
+    }
+}
+
+@media screen and (max-width:415px) {
+    .texto-1 h1 {
+        font-size: 32px;
+    }
+    .texto-2 h1 {
+        font-size: 20px;
+        margin-top: 0px;
+    }
+
+    .logo-section-1 {
+        margin: 0px 16px;
+    }
+
+    .logo-section-1 .corujinha {
+        width: 80px;
+        height: 80px;
+    }
+
+    .logo-section-1 .textotogether {
+        height: 88px;
+        width: 240px;
+    }
+}
+
+/* Section 2 */
+
+.section-2 {
+    margin-top: 24px;
+    background: #92D4E4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-2-logo {
+    margin: 32px 40px 0px 40px;
+}
+
+.section-2-logo p {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    margin-right: 16px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+/* SECTION 3 */
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-section-3 {
+    margin-top: 32px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-3 main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-section-3 p{
+    text-align: left;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+/* quem sou eu */
+
+
+.fabiane {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fabiane img {
+    height: 15px;
+    width: 349px;
+}
+
+.fabiane p {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0px 48px;
+}
+
+.perfil img {
+    border-radius: 50%;
+    height: 258px;
+    width: 258px;
+}
+
+.infosfabi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 32px 0px 32px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.instagram p {
+    margin-bottom: 0px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.instagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.backgroundcirculo {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-instagram,.fa-facebook,.fa-envelope,.fa-map-pin {
+    font-size: 32px;
+}
+
+.textoquemsoueu {
+    margin-top: 24px;
+}
+
+.textoquemsoueu p {
+    padding-bottom: 16px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+/* fale conosco */
+
+.faleconosco {
+    background-color: #0B2930;
+    background-image: url(../images/desenhando.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.faleconosco main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.faleconosco p {
+    text-align: center;
+}
+
+.titulofaleconosco {
+    margin-top: 24px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.duvida {
+    font-size: 32px;
+    margin-top: 24px;
+    color: white;
+}
+
+.botaowhatsapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00FF0B;
+    height: 52px;
+    width: 280px;
+    cursor: pointer;
+    border-radius: 72px;
+    gap: 16px;
+}
+
+.botaowhatsapp p {
+    font-size: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.botaowhatsapp a{
+    color: white;
+    text-decoration: none;
+}
+
+.fa-whatsapp {
+    font-size: 24px
+}
+
+@media screen and (max-width:1200px) {
+    .instagram p {
+        font-size: 32px;
+    }
+
+    .backgroundcirculo {
+        width: 42px;
+        height: 42px;
+    }
+
+    .fa-instagram,.fa-facebook,.fa-envelope,.fa-map-pin {
+        font-size: 24px;
+    }
+
+    .textoquemsoueu p, .primeirotexto p {
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width:980px) {
+    .instagram p,.duvida {
+        font-size: 24px;
+    }
+}
+@media screen and (max-width:760px) {
+    .instagram p,.duvida,.botaowhatsapp p {
+        font-size: 18px;
+    }
+
+    .backgroundcirculo {
+        width: 32px;
+        height: 32px;
+    }
+
+    .fa-instagram,.fa-facebook,.fa-envelope,.fa-map-pin {
+        font-size: 18px;
+    }
+
+    .email {
+        display: none;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .instagram p,.duvida {
+        font-size: 18px;
+    }
+
+    .backgroundcirculo {
+        width: 32px;
+        height: 32px;
+    }
+
+    .fa-instagram,.fa-facebook,.fa-envelope,.fa-map-pin {
+        font-size: 18px;
+    }
+
+    .perfil img {
+        border-radius: 50%;
+        height: 160px;
+        width: 160px;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .instagram p {
+        font-size: 18px;
+    }
+
+    .backgroundcirculo {
+        width: 32px;
+        height: 32px;
+    }
+
+    .fa-instagram,.fa-facebook,.fa-envelope,.fa-map-pin {
+        font-size: 18px;
+    }
+
+    .perfil img {
+        border-radius: 50%;
+        height: 160px;
+        width: 160px;
+    }
+
+    .textoquemsoueu p, .primeirotexto p {
+        font-size: 14px;
+        margin: 0px 24px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .instagram p,.botaowhatsapp p {
+        font-size: 14px;
+    }
+
+    .botaowhatsapp {
+        max-width: 220px;
+        min-width: 220px;
+    }
+
+    .backgroundcirculo {
+        min-width: 32px;
+        min-height: 32px;
+        max-width: 32px;
+        max-height: 32px;
+    }
+
+    .fa-instagram,.fa-facebook,.fa-envelope,.fa-map-pin {
+        font-size: 18px;
+    }
+
+    .perfil img {
+        border-radius: 50%;
+        height: 140px;
+        width: 140px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .fabiane p {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:970px) {
+    .fabiane img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .section-2-logo p,.logo-section-3 p,.titulofaleconosco {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .section-2-logo p,.logo-section-3 p,.titulofaleconosco {
+        font-size: 28px;
+    }
+
+}
+
+@media screen and (max-width:580px) {
+    .section-2-logo p,.logo-section-3 p,.fabiane p,.titulofaleconosco {
+        font-size: 24px;
+    }
+}
+
+
+.section-2-logo img,.logo-section-3 img {
+    max-width: 80px;
+    max-height: 80px;
+    margin-bottom: 24px;
+}
+
+
+@media screen and (max-width:640px) {
+    .section-2-logo p,.logo-section-3 p {
+        font-size: 28px;
+    }
+
+    .section-2-logo img,.logo-section-3 img {
+        max-width: 64px;
+        max-height: 64px;
+        margin-bottom: 14px;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .section-2-logo {
+        margin-top: 20px;
+    }
+
+    .section-2-logo p,.logo-section-3 p,.titulofaleconosco {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:505px) {
+    .section-2-logo p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .section-2-logo p,.logo-section-3 p {
+        margin-right: 2px;
+        font-size: 18px;
+    }
+    .fabiane p {
+        font-size: 18px;
+    }
+
+    .section-2-logo img,.logo-section-3 img {
+        max-width: 56px;
+        max-height: 56px;
+        margin-bottom: 12px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .section-2-logo p,.logo-section-3 p {
+        margin-right: 2px;
+        font-size: 18px;
+    }
+
+    .section-2-logo img,.logo-section-3 img {
+        max-width: 48px;
+        max-height: 48px;
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .section-2-logo img,.logo-section-3 img {
+        display: none;
+    }
+}
+
+.textoverde {
+    color: #00FF0B;
+}
+
+/* ICONES */
+
+.topico-playing-together {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    justify-content: space-around;
+}
+
+.icone-playing-together {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 170px;
+    min-height: 170px;
+    max-width: 170px;
+    min-width: 170px;
+    background-color: #0086D1;
+    border-radius: 500px;
+    margin-right: 24px;
+}
+
+.titulotopico {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.textotopico {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+@media screen and (max-width:1200px) {
+
+    .titulotopico {
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .textotopico {
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width:990px) {
+
+    .icone-playing-together img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .icone-playing-together {
+        max-height: 140px;
+        min-height: 140px;
+        max-width: 140px;
+        min-width: 140px;
+    }
+
+    .titulotopico {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .textotopico {
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width:715px) {
+    .titulotopico {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .textotopico {
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .icone-playing-together img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .icone-playing-together {
+        max-height: 120px;
+        min-height: 120px;
+        max-width: 120px;
+        min-width: 120px;
+        margin-right: 16px;
+    }
+
+    .titulotopico {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .textotopico {
+        margin-top: 0px;
+        font-size: 10px;
+        font-weight: 500;
+    }
+}
+
+/* BOTÕES */
+
+.button-1 a{
+    text-decoration: none;
+}
+
+.button-1 a div {
+    margin-top: 8px;
+    background-color: #FFC514;
+    border-radius: 10px;
+}
+
+.button-1 a div p{
+    padding: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}

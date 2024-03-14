@@ -1,0 +1,821 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.whatsapp {
+    background-color: #5DD062;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    width: 132px;
+    height: 132px;
+    transition: .5s;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    box-shadow: 2px 2px 16px white;
+    z-index: 2;
+}
+
+.whatsapp:hover{
+    background-color: #b0ffb4;
+}
+
+.whatsapp .fa-whatsapp {
+    font-size: 80px;
+}
+
+.background {
+    opacity: 0.08;
+    position: absolute;
+    z-index: -1;
+    max-height: 1200px;
+    width: auto;
+    display: flex;
+    transform: translateX(-50%);
+}
+
+.background2 {
+    transform: translateX(50%);
+}
+
+.background3 {
+    transform: translateY(100%) translateX(-50%);
+}
+
+.background4 {
+    transform: translateY(-15%) translateX(50%);
+}
+
+.tela1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoprincipal {
+    margin-top: 40px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.textologo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.imagemlogo img {
+    width: 100px;
+}
+
+.textologo h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #0B2930;
+}
+
+.textologo img {
+    width: 277.42px;
+}
+
+.texto1 p {
+    margin-top: 40px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.button1 {
+    margin-top: 40px;
+    background-color: #185C6C;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 40px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #4aaec4;
+}
+
+.button1 p{
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+iframe {
+    margin-top: 40px;
+    border-radius: 5px;
+    border: solid black;
+}
+
+.texto2 {
+    margin-top: 40px;
+    color: #0B2930;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button2{
+    margin-top: 40px;
+    background-color: #FF7A00;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 40px 10px 40px;
+    transition: 0.5s;
+}
+
+.button2:hover {
+    background-color: #eba665;
+}
+
+.button2 p{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+/* tela 2 */
+
+.tela2 {
+    margin-top: 40px;
+    background: #3988FF;
+    background-image: url(../images/crianca.png);
+    background-blend-mode:overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 324px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.icones {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 24px;
+}
+
+.icone {
+    background-color: #FF7A00;
+    display: flex;
+    border-radius: 999px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 143px;
+    width: 143px;
+}
+
+.posicionamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textoicone{
+    margin-top: 16px;
+    color: #FF7A00;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.legendaicone {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* Icones */
+
+.fa-medal,.fa-rocket,.fa-file-lines {
+    font-size: 70px;
+}
+
+/* Tela 3 */
+
+.tela3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo2 {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.mockups {
+    margin-top: 56px;
+}
+
+.textomockup {
+    font-size: 40px;
+}
+
+.mockup1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textolaranja {
+    display: flex;
+    justify-content: end;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.textolaranja p{
+    font-size: 48px;
+    font-weight: 400;
+    color: #FF7A00;
+}
+
+.mockup2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.textoseparado {
+    margin-top: 40px;
+}
+
+.laranjaseparado {
+    justify-content: start;
+}
+
+.button4{
+    margin-top: 40px;
+    background-color: #FF7A00;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 40px 10px 40px;
+    transition: 0.5s;
+}
+
+.button4:hover {
+    background-color: #eba665;
+}
+
+.button4 p{
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+}
+
+.mockup3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Tela 4 */
+
+.tela4 {
+    margin-top: 40px;
+    background-color: #3988FF;
+    display: flex;
+    gap: 16px;
+    background-image: url(../images/criancafull.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.TituloTela4 {
+    margin-top: 40px;
+    display: flex;
+    gap: 16px;
+}
+
+.TituloTela4 .textologo h1 {
+    color: white;
+    font-size: 36px;
+}
+
+.textologo h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #FF7A00;
+}
+
+.h1tela4,.h1tela4laranja,.rasura,.precogrande {
+    margin-top: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+.h1tela4laranja {
+    color: #FF7A00;
+}
+
+.button5 {
+    margin-top: 40px;
+    background-color: #FF7A00;
+    padding: 10px 40px 10px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.button5:hover {
+    background-color: #eba665;
+}
+
+.button5 p {
+    color: white;
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+.precogrande {
+    font-size: 96px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.button6 {
+    margin-top: 40px;
+    background-color: #5DD062;
+    padding: 15px 160px 15px 160px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.button6:hover {
+    background-color: #b0ffb4;
+}
+
+.button6 p {
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.bandeiras {
+    height: 147px;
+    margin-bottom: 40px;
+}
+
+/* Tela 5 */
+
+.tela5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo5 {
+    display: flex;
+    margin-top: 40px;
+    gap: 16px;
+    justify-content: center;
+}
+
+.h3azul {
+    font-size: 40px;
+    font-weight: bold;
+    color: #0D98B9;
+}
+
+.avaliacao {
+    max-height: 500px;
+}
+
+.button7 {
+    margin-top: 40px;
+    background-color: #0B2930;
+    padding: 10px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.button7:hover {
+    background-color: #4aaec4;
+}
+
+.button7 p {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+/* Tela 6 */
+
+.tela6 {
+    margin-top: 40px;
+    background-color: #0B2930;
+    max-height: 453px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../images/desenhando.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 40px;
+}
+
+.logotela6 {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.textologo6 img{
+    height: 62px;
+}
+
+.textofaleconosco {
+    gap: 12px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tela6 h1 {
+    display: inline-block;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+.tela6 h3 {
+    display: inline-block;
+    color: #0D98B9;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.pfaleconosco {
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+}
+
+.button8 {
+    margin-top: 40px;
+    background-color: #5DD062;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    border-radius: 72px;
+    width: 280px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.button8:hover {
+    background-color: #b0ffb4;
+}
+
+.mensagem {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.fa-whatsapp {
+    font-size: 32px;
+}
+
+/* Rodapé */
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(120deg,#72CBE1,#349CB5);
+    height: 100px;
+}
+
+footer p {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.preco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blur {
+    position: absolute;
+    z-index: 0;
+    max-width: 1000px;
+    max-height: 350px;
+    opacity: 0.6;
+}
+
+.precogrande {
+    z-index: 1;
+}
+
+/* Responsividade */
+
+.textologo h1 {
+    text-align: center;
+}
+
+iframe {
+    width: 640px;
+    height: 360px;
+    margin: 40px 40px 0px 40px;
+}
+
+@media screen and (max-width: 1100px) {
+    .background {
+        display:none
+    }
+
+    .imagemlogo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    iframe {
+        width: 640px;
+        height: 360px;
+        margin: 40px 40px 0px 40px;
+    }
+
+    .mockup1 {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .textolaranja {
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .mockup2 {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .divmockup p {
+        margin: 40px;
+    }
+
+    .mockup3 {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .TituloTela4 {
+        margin: 40px;
+        margin-bottom: 0px;
+    }
+
+    .button5 p {
+        font-size: 40px;
+    }
+
+    .button6 p {
+        font-size: 24px;
+    }
+
+    .pfaleconosco {
+        font-size: 24px;
+        margin: 0px 40px;
+    }
+
+    .texto2 {
+        font-size: 18px;
+    }
+
+    .button4 p {
+        font-size: 24px;
+    }
+
+}
+
+@media screen and (max-width: 680px) {
+    .avaliacao {
+        max-width: 400px;
+    }
+
+    .button5 p {
+        font-size: 32px;
+    }
+
+    .button6 p {
+        font-size: 24px;
+    }
+
+    .button7 p {
+        font-size: 32px;
+    }
+
+    iframe {
+        width: 426px;
+        height: 240px;
+    }
+
+    .textomockup {
+        font-size: 32px;
+    }
+
+    footer p {
+        font-size: 16px;
+        margin: 40px;
+    }
+
+    .button1 {
+        font-size: 24px;
+    }
+
+}
+
+@media screen and (max-width: 595px) {
+    .mockup3 img {
+        width: 400px;
+    }
+
+    .button5 p {
+        font-size: 28px;
+    }
+
+    .button4 p {
+        font-size: 24px;
+    }
+
+    .button7 p {
+        font-size: 24px;
+    }
+
+    .pfaleconosco {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .icones {
+        display: flex;
+        flex-direction: column;
+        margin: 40px;
+    }
+
+    .whatsapp {
+        width: 80px;
+        height: 80px;
+    }
+
+    .whatsapp .fa-whatsapp {
+        font-size: 48px;
+    }
+
+    .button1 p {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .logoprincipal .textologo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textomockup {
+        font-size: 24px;
+        margin: 0px 40px;
+    }
+
+    .button4 p {
+        font-size: 18px;
+    }
+
+    .button5 p {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    iframe {
+        width: 320px;
+        height: 180px;
+    }
+
+    .texto2 {
+        font-size: 16px;
+    }
+
+    .button1 p {
+        font-size: 18px;
+    }
+
+    .textologo h1 {
+        font-size: 32px;
+    }
+
+    .textolaranja p {
+        font-size: 32px;
+    }
+
+    .mockup3 img {
+        width: 320px;
+    }
+
+    .TituloTela4 .textologo h1 {
+        font-size: 24px;
+    }
+
+    .TituloTela4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .h1tela4 {
+        display: none;
+    }
+
+    .h1tela4laranja {
+        color: white;
+        margin: 0px 40px;
+        text-align: center;
+    }
+
+    .button6 {
+        padding: 10px 80px;
+    }
+
+    .button6 p {
+        font-size: 24px;
+    }
+
+    .precogrande {
+        font-size: 72px;
+    }
+
+    .button1 {
+        margin-top: 40px;
+    }
+
+    .texto1 {
+        margin-top: 0;
+    }
+
+    .logoprincipal .textologo img {
+        margin-bottom: 0;
+    }
+
+    .logoprincipal .logoprincipal h1 {
+        font-size: 40px;
+    }
+}
